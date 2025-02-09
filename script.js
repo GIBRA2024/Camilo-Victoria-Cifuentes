@@ -1,9 +1,10 @@
 function descargarContacto() {
     const vcardData = `BEGIN:VCARD
 VERSION:3.0
-FN:Camilo Victoria Cifuentes
+FN:Camilo J. Victoria Cifuentes
 TEL: +57 3005114223
-NOTE: Negocios Corporativos
+NOTE: Negocios Corporativos 
+NOTE: camilo.victoria@jimenezpuerta.com
 END:VCARD`;
 
     const blob = new Blob([vcardData], { type: 'text/vcard' });
